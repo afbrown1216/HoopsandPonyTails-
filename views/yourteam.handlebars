@@ -17,11 +17,13 @@
         {{!-- <label>Select a team to view --}}
           <select>
             {{#each teams}}
-            <option id = "name">{{team_name}}</option>
+            <option id = "name" data-id="{{this.id}}">{{team_name}} </option>
+      
             {{/each}}
+           
           </select>
         {{!-- </label> --}}
-        <button class=" alert button" type="submit" data-toggle="example-dropdown-bottom-center" >Select</button>
+        <button class=" alert button" type="submit"  id = "view" data-toggle="example-dropdown-bottom-center" >Select</button>
       </form>
     </div>
     <!-- results cell-->
@@ -74,7 +76,7 @@
 <script >
   $(document).ready(function () {
 
-  
+    var vie
     var resultsDiv = $(".view-results");
     var resultsCard = $('<div>');
     var cardDivider = $("<div>");
@@ -83,14 +85,10 @@
     $(".view-form").on("submit", function (event) {
       event.preventDefault();
       console.log("clicked");
-      var createdTeamName = $(this).data("team")
-      $.ajax("/api/team/", {
-        type: "GET", 
-        user: createdTeamName
-      }).then(function(){
-        console.log("here's your team");
-        location.reload();
-      });
+      var id = $(this).data("id");
+      console.log(id);
+
+  
       
     });
 

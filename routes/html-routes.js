@@ -37,7 +37,10 @@ module.exports = function(app){
   });
 
   app.get("/teamchallenge", (req,res)=> {
-    res.render("teamchallenge");
+    db.Team.findAll().then(function(data){
+      res.render("teamchallenge",{teams:data})
+    });
+
       // res.render("teamchallenge",{
       //   testing:"example text"
       // })

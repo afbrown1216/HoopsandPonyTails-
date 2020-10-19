@@ -171,17 +171,6 @@ $(document).ready(function () {
  
 
 
-  function validUser(user) {
-    $.ajax({
-      method: "PUT",
-      url: "/api/user/" + user,
-      data: loggedIn
-    })
-      .then(function (data) {
-
-        window.location.replace("/home")
-      })
-  };
 
       
 });

@@ -38,6 +38,14 @@ var count = 0;
           res.json(dbPlayerGet);
         });
     });
+    app.get("/api/player/:team_id", function (req, res) {
+      db.Player.findAll({
+        where:{team_name: req.params.team_id}
+      })
+        .then(function (teamPlayer) {
+          res.json(teamPlayer);
+        });
+    });
 
     // //======================================================================================
     // Get route for retrieving a single user
