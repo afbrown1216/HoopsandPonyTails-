@@ -28,7 +28,7 @@ Hoops and ponytails is a WNBA companion app that allows you to view player and t
   Download onto your machine, make sure you have Node.js, npm express, sequelize, foundation, anime.js, and mysql installed. 
 
 ## Usage
-  Run by following this heroku link __________-.
+  Run by following this heroku [link](https://fierce-eyrie-52796.herokuapp.com/).
 
 ## Licenses
   This project is licensed under the MIT,GNU GPLv3,ISC,Apache 2.0 license(s). for more information regarding licensing feel free to visit
@@ -41,4 +41,4 @@ Hoops and ponytails is a WNBA companion app that allows you to view player and t
    
 
 ## Questions
- Please forward any questions to [agcmarcus@gmail.com](agcmarcus@gmail.com) . Please refer to the code for this project and others at [https://github.com/Andrew0502](https://github.com/Andrew0502).
+ Please forward any questions to [fay.ashbro@gmail.com](fay.ashbro@gmail.com) . Please refer to the code for this project and others at [https://github.com/afbrown1216](https://github.com/afbrown1216).
