@@ -3,9 +3,7 @@
 # Hoops and Ponytails
 
   ![MIT License Badge](https://img.shields.io/badge/license-MIT-blue)
-  ![GNU License Badge](https://img.shields.io/badge/license-GNU_GPLv3-blue)
-  ![MIT License Badge](https://img.shields.io/badge/license-ISC-blue)
-  ![MIT License Badge](https://img.shields.io/badge/license-Apache_2.0-blue)
+  
 
 ## Description
 Hoops and ponytails is a WNBA companion app that allows you to view player and team stats on demand. In addition, you can pit teams against one another in the team challenge mode. Simply follow on screen instructions to do so. This app was created using Node.js,handlebars, npm express, mysql, Heroku, anime.js, sequelize, and foundation styling elements.
@@ -31,8 +29,9 @@ Hoops and ponytails is a WNBA companion app that allows you to view player and t
   Run by following this heroku [link](https://fierce-eyrie-52796.herokuapp.com/).
 
 ## Licenses
-  This project is licensed under the MIT,GNU GPLv3,ISC,Apache 2.0 license(s). for more information regarding licensing feel free to visit
-  [choose a license](https://choosealicense.com/)
+  This project is licensed under the MIT license. for more information regarding licensing feel free to visit
+  [MIT](https://choosealicense.com/licenses/mit/)
+  
 
 ## Contributions
   Please refer to email under the contacts heading to request editing permission.
